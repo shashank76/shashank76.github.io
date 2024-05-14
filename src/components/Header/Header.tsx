@@ -96,7 +96,7 @@ interface IStyledProps {
 }
 
 const Wrapper = styled.div<IStyledProps>`
-    position: sticky;
+    position: sticky !important;
     top: 0;
     background-color: ${({ theme }) => theme.colors.background.blur};
     backdrop-filter: blur(10px);

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Highlight from "../Highlight";
 import Link from "../Link";
 
-const Hero = () => {
+const Intro = () => {
     const scrollToContact = () => {
         const contact = document.getElementById("contact");
         contact!.scrollIntoView({ behavior: "smooth" });
@@ -92,4 +92,4 @@ const CallToAction = styled(Button)`
     pointer-events: all;
 `;
 
-export default Hero;
+export default Intro;
