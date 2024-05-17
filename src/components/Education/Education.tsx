@@ -10,7 +10,7 @@ const COLLEGES = [
         school: "University of Illinois at Springfield",
         start: 2022,
         end: 2024,
-        gpa: "3.95",
+        gpa: "3.8",
         imgSrc: "images/uis-campus.jpeg",
     },
     {
