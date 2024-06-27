@@ -25,7 +25,7 @@ export default function Resume() {
     return (
         <PDFViewer
             backend={PDFJSBackend}
-            src="/Shashank_Tripathi.pdf"
+            src="/Shashank-Tripathi-Resume.pdf"
         />
     );
 }

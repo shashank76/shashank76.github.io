@@ -18,7 +18,7 @@ const COLLEGES = [
         school: "Dr. A.P.J. Abdul Kalam Technical University",
         start: 2015,
         end: 2019,
-        gpa: "3.7",
+        gpa: "3.6",
         imgSrc: "images/uptu-campus.jpeg",
     },
 ];
