@@ -4,6 +4,7 @@ import Cursor from "@/components/Cursor";
 import Education from "@/components/Education";
 import Email from "@/components/Email";
 import Experiences from "@/components/Experiences";
+import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
@@ -41,6 +42,7 @@ export default function Home({
 
                 <About theme={theme} />
                 <Experiences />
+                <Projects />
                 <Skills />
                 <Education />
                 <Contact />

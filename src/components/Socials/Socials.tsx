@@ -1,9 +1,4 @@
 import { QUERIES } from "breakpoints";
-import {
-    AiFillInstagram,
-    AiOutlineCodepen,
-    AiOutlineTwitter,
-} from "react-icons/ai";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 import styled from "styled-components";
 

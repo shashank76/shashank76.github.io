@@ -5,13 +5,19 @@ const AnimateCursor = () => {
   return (
     <>
       <AnimatedCursor
-      innerSize={8}
-      outerSize={8}
-      color='0, 100, 100'
-      outerAlpha={0.2}
-      innerScale={0.7}
-      outerScale={5}
-    />
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: '#fff'
+        }}
+        outerStyle={{
+          border: '3px solid #fff'
+        }}
+      />
     </>
   )
 }

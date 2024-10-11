@@ -123,7 +123,6 @@ const Options = styled.ul`
 `;
 
 const Option = styled.li<OptionProps>`
-    cursor: pointer;
     background-color: ${({ theme, active }) =>
         active ? theme.colors.primary : theme.colors.text.light};
     color: ${({ theme }) => theme.colors.background.dark};
