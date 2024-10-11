@@ -14,7 +14,7 @@ const AnimateCursor = () => {
           backgroundColor: '#fff'
         }}
         outerStyle={{
-            border: '1px solid #000'
+          border: '3px solid #fff'
         }}
       />
     </>
