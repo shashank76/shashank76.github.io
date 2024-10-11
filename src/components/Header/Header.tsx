@@ -8,20 +8,15 @@ import { SocialIcons } from "../Socials/Socials";
 
 const Header = ({
     scrollDirection,
-    theme,
-    toggleTheme,
 }: {
     scrollDirection: "up" | "down" | undefined;
-    theme: "light" | "dark";
-    toggleTheme: () => void;
 }) => {
     const [showSidebar, setShowSidebar] = useState(false);
     const toggleSidebar = () => {
         setShowSidebar((prev) => !prev);
     };
 
-    const logoUrl =
-        theme === "light" ? "/images/logo1.png" : "/images/logo.png";
+    const logoUrl = "/images/logo.png";
     return (
         <>
             <Overlay show={showSidebar} onClick={toggleSidebar}>
@@ -42,16 +37,6 @@ const Header = ({
                 </Navbar>
 
                 <MenuButton>
-                    <DarkModeSwitch
-                        style={{
-                            marginLeft: "auto",
-                            alignSelf: "center",
-                            marginRight: "1em",
-                        }}
-                        checked={theme === "dark"}
-                        onChange={toggleTheme}
-                        size={32}
-                    />
                     <Hamburger toggled={showSidebar} onToggle={toggleSidebar} />
                 </MenuButton>
             </Wrapper>

@@ -28,25 +28,22 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                        Hi! My name is Shashank Tripathi. I attained my Master's in Computer Science from the University of Illinois in 2024.
+                      Hi, I’m Shashank Tripathi, a Master’s graduate in Computer Science from the University of Illinois. With over seven years of hands-on experience as a Software Engineer, I specialize in designing, developing, and deploying scalable software solutions and infrastructure systems.
                     </Description>
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      I have<b> over 6 years of experience as a Software Engineer</b>, specializing in designing, developing, and deploying
-                      scalable software and infrastructure systems. My proficiency spans a wide spectrum of technologies including <b> Python, Ruby on Rails,
-											Vue.js, JavaScript, and shell scripting </b>, complemented by extensive experience in managing
-											databases on AWS, particularly PostgreSQL and MongoDB. With a proven track record of
-											collaborating with cross-functional Agile teams, I excel in implementing robust alerting
-											and monitoring systems, ensuring compliance with CI/CD best practices, and leveraging Docker
-											for efficient containerization. Whether building and deploying monolithic or microservices
-											architectures,
+                      My technical expertise covers a wide range of tools and technologies, including Python, Ruby on Rails, Vue.js, JavaScript, and shell scripting, with a strong emphasis on cloud platforms like AWS. I have extensive experience managing databases, particularly PostgreSQL and MongoDB, and am adept at working within Agile teams to build robust, scalable systems.
                     </Description>
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      I'm committed to continuous improvement and excellence in software engineering and data science
-											driven by a passion for innovation and problem-solving.
+                      I excel at implementing comprehensive CI/CD pipelines, leveraging Docker for containerization, and developing both monolithic and microservices architectures. I’m also skilled at creating efficient alerting and monitoring systems to ensure system reliability and performance.
+                    </Description>
+                </SlideUp>
+                <SlideUp>
+                    <Description>
+                      Driven by a passion for innovation and problem-solving, I’m committed to continuously improving my technical skills and delivering excellence in software engineering and data science.
                     </Description>
                 </SlideUp>
                 <SlideUp>

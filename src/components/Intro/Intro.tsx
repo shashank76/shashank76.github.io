@@ -18,16 +18,15 @@ const Intro = () => {
             <Name>Shashank Tripathi</Name>
             <SubText></SubText>
             <Text>
-                With over 6 years of expertise in full-stack development, CI/CD, cloud infrastructure, machine learning, data engineering & visualization, and automation,
+                With over 7 years of expertise in full-stack development, CI/CD, cloud infrastructure, machine learning, data engineering & visualization, and automation,
                 I hold a Master's degree in Computer Science from the {" "}
                 <Link
                     href="https://www.uis.edu/"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    <Highlight>University of Illinois</Highlight>
+                    <Highlight>University of Illinois at Springfield.</Highlight>
                 </Link>
-                , earned in 2024.
             </Text>
             <CallToAction onClick={scrollToContact}>Get In Touch</CallToAction>
         </ContentWrapper>

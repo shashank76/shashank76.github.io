@@ -16,12 +16,8 @@ import styled from "styled-components";
 
 export default function Home({
     scrollDirection,
-    theme,
-    toggleTheme,
 }: {
     scrollDirection: "up" | "down" | undefined;
-    theme: "light" | "dark";
-    toggleTheme: () => void;
 }) {
     const boundingRect = useRef<HTMLDivElement>(null);
     return (
@@ -31,16 +27,14 @@ export default function Home({
             <Email />
             <Grid>
                 <Header
-                    theme={theme}
                     scrollDirection={scrollDirection}
-                    toggleTheme={toggleTheme}
                 />
                 <CursorWrapper ref={boundingRect}>
                     <Cursor />
                     <Intro />
                 </CursorWrapper>
 
-                <About theme={theme} />
+                <About />
                 <Experiences />
                 <Projects />
                 <Skills />

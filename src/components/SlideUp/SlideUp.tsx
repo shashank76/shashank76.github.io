@@ -16,7 +16,7 @@ const SlideUp: React.FC<React.PropsWithChildren<IProps>> = ({
     zIndex,
     ...delegated
 }) => {
-    const [ref, inView, entry] = useInView({ threshold: 0 });
+    const [ref, inView] = useInView({ threshold: 0 });
     const [visible, setVisible] = React.useState(false);
 
     // Visible should be set to true when the element is in view and then stay true
