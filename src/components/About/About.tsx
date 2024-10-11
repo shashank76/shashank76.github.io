@@ -6,20 +6,17 @@ import SlideUp from "../SlideUp";
 
 export interface IProps {
     delegated?: any;
-    theme: "dark" | "light";
 }
 
 const About: React.FC<React.PropsWithChildren<IProps>> = ({
                                                               children,
-                                                              theme,
                                                               ...delegated
                                                           }) => {
     const downloadResume = () => {
         window.open("/resume", "_blank");
     };
 
-    const aboutUrl =
-        theme === "light" ? "images/profile_image.jpg" : "images/profile_image.jpg";
+    const aboutUrl = "images/profile_image.jpg";
     return (
         <Wrapper {...delegated} id="about">
             <AboutMe>
