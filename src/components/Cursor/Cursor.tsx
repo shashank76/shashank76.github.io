@@ -10,12 +10,11 @@ const AnimateCursor = () => {
         innerScale={1}
         outerScale={2}
         outerAlpha={0}
-        hasBlendMode={true}
         innerStyle={{
           backgroundColor: '#fff'
         }}
         outerStyle={{
-          border: '3px solid #fff'
+            border: '1px solid #000'
         }}
       />
     </>
