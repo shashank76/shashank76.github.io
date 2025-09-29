@@ -16,6 +16,54 @@ const Experiences: React.FC = () => {
                     <SlideUp>
                         <Item>
                             <Image
+                                src="images/paypal.png"
+                                alt="PayPal"
+                            ></Image>
+                            <DotPrimary>
+                                <DotCore/>
+                            </DotPrimary>
+                            <Connector/>
+                            <Info>
+                                <MobileImage
+                                    src="images/paypal-braintree.png"
+                                    alt="PayPal"
+                                ></MobileImage>
+                                <Time>Mar 2025 - Present</Time>
+                                <Company>PayPal</Company>
+                                <Role>Senior Software Engineer</Role>
+                                <Description>
+
+                                </Description>
+                            </Info>
+                        </Item>
+                    </SlideUp>
+                    <SlideUp>
+                        <Item>
+                            <Image
+                                src="images/iqvia.png"
+                                alt="IQVIA"
+                            ></Image>
+                            <DotPrimary>
+                                <DotCore/>
+                            </DotPrimary>
+                            <Connector/>
+                            <Info>
+                                <MobileImage
+                                    src="images/iqvia.png"
+                                    alt="IQVIA"
+                                ></MobileImage>
+                                <Time>Jul 2024 - Mar 2025</Time>
+                                <Company>IQVIA</Company>
+                                <Role>Senior Software Engineer</Role>
+                                <Description>
+
+                                </Description>
+                            </Info>
+                        </Item>
+                    </SlideUp>
+                    <SlideUp>
+                        <Item>
+                            <Image
                                 src="images/uis-logo1.png"
                                 alt="UIS"
                             ></Image>
@@ -28,7 +76,7 @@ const Experiences: React.FC = () => {
                                     src="images/uis-logo1.png"
                                     alt="UIS"
                                 ></MobileImage>
-                                <Time>Jan 2023 - Present</Time>
+                                <Time>Jan 2023 - May 2024</Time>
                                 <Company>University of Illinois, Information Technology Service </Company>
                                 <Role>Software Engineer - Graduate Assistant</Role>
                                 <Description>
@@ -152,7 +200,7 @@ const Experiences: React.FC = () => {
                                             src="images/mobiloitte-logo.png"
                                             alt="Mobiloitte Technologies"
                                         ></MobileImage>
-                                        <Time>Jan 2016 - Oct 2018</Time>
+                                        <Time>Aug 2015 - Oct 2018</Time>
                                         <Company>Mobiloitte technologies</Company>
                                         <Role>Software Engineer</Role>
                                         <Description>
@@ -161,22 +209,6 @@ const Experiences: React.FC = () => {
                                           • Implemented a scalable live streaming platform with real-time audience engagement features (Wowza, Wirecast,
                                             WebSocket, Ruby on Rails, Sidekiq, Redis, Google Firebase) and cloud infrastructure (AWS EC2, S3) exceeding user
                                             engagement targets by 30%.
-                                        </Description>
-                                    </Info>
-                                </Bullet>
-                            </SlideUp>
-                            <SlideUp>
-                                <Bullet>
-                                    <DotSecondary>
-                                        <DotCore/>
-                                    </DotSecondary>
-                                    <Info>
-                                        <Time>Sept 2015 - Dec 2015</Time>
-                                        <Role>Software Engineer Intern</Role>
-                                        <Description>
-                                            • Designed and implemented an internal employee and project management tool using Python, Django, PostgreSQL,
-                                              AWS EC2, S3, Redis, and Sidekiq. Enhanced trackability and productivity by monitoring attendance, project assignments,
-                                              reporting structures, and project progress.
                                         </Description>
                                     </Info>
                                 </Bullet>

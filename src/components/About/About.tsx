@@ -25,22 +25,22 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      Hi, I’m Shashank Tripathi, a Master’s graduate in Computer Science from the University of Illinois. With over seven years of hands-on experience as a Software Engineer, I specialize in designing, developing, and deploying scalable software solutions and infrastructure systems.
+                      Hi, I’m Shashank Tripathi, a Senior Software Engineer at PayPal Braintree and a Master’s graduate in Computer Science from the University of Illinois. With over nine years of experience in software engineering, I specialize in designing, developing, and deploying scalable applications and infrastructure systems.
                     </Description>
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      My technical expertise covers a wide range of tools and technologies, including Python, Ruby on Rails, Vue.js, JavaScript, and shell scripting, with a strong emphasis on cloud platforms like AWS. I have extensive experience managing databases, particularly PostgreSQL and MongoDB, and am adept at working within Agile teams to build robust, scalable systems.
+                      My expertise spans a wide range of technologies, including Ruby on Rails, Python, Vue.js, JavaScript, HTML, and CSS, with a strong focus on cloud platforms like AWS. I have extensive experience managing databases such as PostgreSQL and MongoDB and thrive in Agile environments, building high-performance, scalable systems.
                     </Description>
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      I excel at implementing comprehensive CI/CD pipelines, leveraging Docker for containerization, and developing both monolithic and microservices architectures. I’m also skilled at creating efficient alerting and monitoring systems to ensure system reliability and performance.
+                      I excel in implementing CI/CD pipelines, leveraging Docker for containerization, and developing both monolithic and microservices architectures. Additionally, I am skilled in building robust alerting and monitoring systems to ensure optimal system performance and reliability.
                     </Description>
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      Driven by a passion for innovation and problem-solving, I’m committed to continuously improving my technical skills and delivering excellence in software engineering and data science.
+                      Passionate about innovation and problem-solving, I am dedicated to continuously refining my technical skills and delivering high-quality software solutions.
                     </Description>
                 </SlideUp>
                 <SlideUp>

@@ -18,7 +18,7 @@ const Intro = () => {
             <Name>Shashank Tripathi</Name>
             <SubText></SubText>
             <Text>
-                With over 7 years of expertise in full-stack development, CI/CD, cloud infrastructure, machine learning, data engineering & visualization, and automation,
+                With over 9 years of expertise in full-stack development, CI/CD, cloud infrastructure, machine learning, data engineering & visualization, and automation,
                 I hold a Master's degree in Computer Science from the {" "}
                 <Link
                     href="https://www.uis.edu/"
