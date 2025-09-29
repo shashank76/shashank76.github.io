@@ -25,7 +25,7 @@ const About: React.FC<React.PropsWithChildren<IProps>> = ({
                 </SlideUp>
                 <SlideUp>
                     <Description>
-                      Hi, I’m Shashank Tripathi, a Senior Software Engineer at PayPal Braintree and a Master’s graduate in Computer Science from the University of Illinois. With over nine years of experience in software engineering, I specialize in designing, developing, and deploying scalable applications and infrastructure systems.
+                      Hi, I’m Shashank Tripathi, a Senior Software Engineer at PayPal and a Master’s graduate in Computer Science from the University of Illinois. With over nine years of experience in software engineering, I specialize in designing, developing, and deploying scalable applications and infrastructure systems.
                     </Description>
                 </SlideUp>
                 <SlideUp>

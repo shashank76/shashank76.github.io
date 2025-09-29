@@ -28,9 +28,7 @@ const Contact: React.FC<React.PropsWithChildren<IProps>> = ({
             <Map>
                 <SlideUp>
                     <Highlight>
-                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6138.578920259527!2d-89.6399263!3d39.710677100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88753e95c9ebee4f%3A0x71a4811f7db32c26!2s6240%20S%206th%20St%2C%20Springfield%2C%20IL%2062712!5e0!3m2!1sen!2sus!4v1719456800774!5m2!1sen!2sus" width="100%" height="250" loading="lazy"></iframe> */}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8051.860050103969!2d-87.64417017674651!3d41.88199585908272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cb6e328686d%3A0x43f86a8214e286bb!2sThe%20Merchandise%20Mart!5e0!3m2!1sen!2sus!4v1739999127391!5m2!1sen!2sus" width="100%" height="250"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.0225238972507!2d-87.6455227239125!3d41.935367371235536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30ab23b23bf%3A0xf3261b3635004756!2sOakdale%20Terrace!5e0!3m2!1sen!2sus!4v1714361186479!5m2!1sen!2sus" width="100%" height="250" loading="lazy"></iframe> */}
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8051.860050103969!2d-87.64417017674651!3d41.88199585908272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cb6e328686d%3A0x43f86a8214e286bb!2sThe%20Merchandise%20Mart!5e0!3m2!1sen!2sus!4v1739999127391!5m2!1sen!2sus" width="100%" height="250"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </Highlight>
                 </SlideUp>
             </Map>
